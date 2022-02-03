@@ -275,7 +275,7 @@ app.post("/webhook",express.json(),(request,response)=>{          //fulfillment 
       
       intentMap.set('Adding to order', addorder);
       
-      intentMap.set('Pick Up Scheduling',pickup);
+      intentMap.set('Pick up timing',pickup);
 
       // 
       intentMap.set('Payment',Payment)
